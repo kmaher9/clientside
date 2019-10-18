@@ -1,0 +1,32 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "description": "An internal facing client database interface system",
+  "main": "server-core.js",
+  "scripts": {
+    "serve": "nodemon ."
+  },
+  "author": "Kieran Maher of IT Group UK Ltd",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "connect-busboy": "0.0.2",
+    "connect-mongo": "^2.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.6-alpha.5",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.1",
+    "formidable": "^1.2.1",
+    "gridfs-stream": "^1.1.1",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.12",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^3.3.0",
+    "nodemailer": "^5.1.1",
+    "nodemon": "^1.18.10",
+    "tmp": "0.0.33"
+  }
+}
